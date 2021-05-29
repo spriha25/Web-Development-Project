@@ -10,7 +10,7 @@ Can also be accessed at tesla.productions and tesla.productions/wap
 
 # Search page:
 
-![image](https://user-images.githubusercontent.com/61795414/120082720-23c22500-c0e2-11eb-9a93-c6e825ad719f.png)
+![image](https://user-images.githubusercontent.com/61795414/120082944-5d476000-c0e3-11eb-9bd3-9c27d795a017.png)
 
 # Enter Details page:
 
