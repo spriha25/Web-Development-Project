@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Industrial Supply Management</title>
+	<style>
+.cross_line{
+    display: inline-block;
+    position: relative;
+    padding: 0.25em 1em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    text-decoration: none;
+    font-weight: bold;
+    color: #03A9F4;
+}
+.cross_line:before, .cross_line:after{
+  content: '';
+  position: absolute;
+  top: -7px;
+  width: 2px;
+  height: -webkit-calc(100% + 14px);
+  height: calc(100% + 14px);
+  background-color: black;
+  transition: .3s;
+}
+.cross_line:before {left: 7px;}
+.cross_line:after {right: 7px;}
+.cross_line:hover:before{
+  top: 0px;
+  left:0;
+  height: 100%;
+}
+.cross_line:hover:after{
+  top: 0px;
+  right: 0;
+  height: 100%;
+}
+	</style>
+</head>
+<body><center>
+<h1 style="color:DodgerBlue;">Main Menu</h1>
+	<header>
+	<div class="button">
+	<h3 style="color:DodgerBlue;">Insert new data into:</h3>
+	<a href="customer.html" class="cross_line">Customer</a><br><br>
+	<a href="warehouse.html" class="cross_line">Warehouse</a><br><br>
+	<a href="supplier.html" class="cross_line">Supplier</a><br><br>
+	<a href="item.html" class="cross_line">Items</a><br><br>
+	<a href="manufacturer.html" class="cross_line">Manufacturer</a><br><br>
+	<h3 style="color:DodgerBlue;">Other Functions-</h3>
+	<a href="search.html" class="cross_line">Search</a><br><br>
+	<a href="delete.html" class="cross_line">Delete</a><br><br>
+	<a href="update.html" class="cross_line">Update Data</a><br><br>
+	<a href="http://tesla.productions/wap/api/itemdisp/" class="cross_line">Display Items</a>
+	</div>
+	</header></center>
+</body>
+</html>

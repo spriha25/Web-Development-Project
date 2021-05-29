@@ -1,0 +1,36 @@
+
+<html>
+<head>
+<title> Updation of customer info</title>
+<style>
+	body{
+              Background-colour: black;
+	}
+         input{
+                width: 40%;
+		height: 5%;
+		border: 1px;
+		border-radius: 05px;
+		padding: 8px 15px 8px 15px;
+		margin: 10px 0px 15px 0px;
+		box-shadow: 1px 1px 2px 1px grey;
+              }
+</style>
+</head>
+
+<body>
+ <center>
+   <h1> Updation of customer information into database</h1>
+   
+     <form action="http://tesla.productions/wap/api/update.php?apicall=update" method="POST">
+            <input type="text" name="name" placeholder="Enter Name"/><br/>
+        <input type="text" name="city" placeholder="Enter City"/><br/>
+	<input type="text" name="cnumber" placeholder="Enter Number"/><br/>
+	<input type="text" name="id" placeholder="Enter ID"/><br/>
+	
+	<input type="submit" name="Update" value="UPDATE DATA"/>
+     </form>
+
+ </center>
+</body>
+</html>
